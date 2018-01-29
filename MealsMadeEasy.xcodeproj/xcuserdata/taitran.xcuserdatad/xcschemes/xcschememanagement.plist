@@ -7,7 +7,25 @@
 		<key>MealsMadeEasy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E8A169C820101450005E997C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8A169DC20101450005E997C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8A169E720101450005E997C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
