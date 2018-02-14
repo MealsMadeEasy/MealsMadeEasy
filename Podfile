@@ -7,6 +7,7 @@ target 'MealsMadeEasy' do
 	pod 'Firebase'
 	pod 'Firebase/Auth'
 	pod 'GoogleSignIn'
+    pod 'Material', '~> 2.0'
   # Pods for MealsMadeEasy
 
   target 'MealsMadeEasyTests' do

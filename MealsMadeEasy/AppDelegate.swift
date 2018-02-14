@@ -19,11 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
-        
         mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
         let isUserLoggedIn: Bool = UserDefaults.standard.bool(forKey: "isUserLoggedIn")
         if (isUserLoggedIn) {
-            let homePage = mainStoryBoard!.instantiateViewController(withIdentifier: "HomeController") as! HomeController
+            let homePage = mainStoryBoard!.instantiateViewController(withIdentifier: "TabBar") as! TabBarViewController
             self.window?.rootViewController = homePage
         } else {
             let loginPage = mainStoryBoard!.instantiateViewController(withIdentifier: "ViewController") as! ViewController
@@ -62,8 +61,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             // User is signed in
             UserDefaults.standard.set(true, forKey: "isUserLoggedIn")
             
-            let homePage = self.mainStoryBoard!.instantiateViewController(withIdentifier: "HomeController") as! HomeController
-            self.window?.rootViewController = homePage
+            let onboarding = self.mainStoryBoard!.instantiateViewController(withIdentifier: "Useronboarding") as! UseronboardingController
+            self.window?.rootViewController?.present(onboarding, animated: true, completion: nil)
         }
     }
     

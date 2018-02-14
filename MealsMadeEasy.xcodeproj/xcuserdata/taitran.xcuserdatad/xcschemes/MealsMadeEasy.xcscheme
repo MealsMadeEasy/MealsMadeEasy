@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E8A169C820101450005E997C"
-               BuildableName = "MealsMadeEasy.app"
+               BuildableName = "Meals Made Easy.app"
                BlueprintName = "MealsMadeEasy"
                ReferencedContainer = "container:MealsMadeEasy.xcodeproj">
             </BuildableReference>
@@ -54,7 +54,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E8A169C820101450005E997C"
-            BuildableName = "MealsMadeEasy.app"
+            BuildableName = "Meals Made Easy.app"
             BlueprintName = "MealsMadeEasy"
             ReferencedContainer = "container:MealsMadeEasy.xcodeproj">
          </BuildableReference>
@@ -78,7 +78,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E8A169C820101450005E997C"
-            BuildableName = "MealsMadeEasy.app"
+            BuildableName = "Meals Made Easy.app"
             BlueprintName = "MealsMadeEasy"
             ReferencedContainer = "container:MealsMadeEasy.xcodeproj">
          </BuildableReference>
@@ -97,7 +97,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E8A169C820101450005E997C"
-            BuildableName = "MealsMadeEasy.app"
+            BuildableName = "Meals Made Easy.app"
             BlueprintName = "MealsMadeEasy"
             ReferencedContainer = "container:MealsMadeEasy.xcodeproj">
          </BuildableReference>

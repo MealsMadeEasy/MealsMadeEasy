@@ -11,6 +11,13 @@
 		17B285D8E88DA7F31DB6494B /* Pods_MealsMadeEasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B30E37765AB9749F2999909 /* Pods_MealsMadeEasy.framework */; };
 		6D35945D3B680BA62ED8E0A9 /* Pods_MealsMadeEasyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39A2B94D87F735BDB5E5FD3 /* Pods_MealsMadeEasyTests.framework */; };
 		E814323F2018D06D00206C17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E814323E2018D06D00206C17 /* GoogleService-Info.plist */; };
+		E883FF04203490FB00523A01 /* icons8-home-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E883FF00203490FA00523A01 /* icons8-home-filled-22.png */; };
+		E883FF05203490FB00523A01 /* icons8-shopping-cart-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E883FF01203490FA00523A01 /* icons8-shopping-cart-filled-22.png */; };
+		E883FF06203490FB00523A01 /* icons8-summary-list-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E883FF02203490FA00523A01 /* icons8-summary-list-filled-22.png */; };
+		E883FF07203490FB00523A01 /* icons8-settings-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E883FF03203490FB00523A01 /* icons8-settings-filled-22.png */; };
+		E883FF09203493DC00523A01 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FF08203493DC00523A01 /* TabBarViewController.swift */; };
+		E883FF0B203495B600523A01 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FF0A203495B600523A01 /* TableViewController.swift */; };
+		E888164A202DF00E008E5681 /* UseronboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8881649202DF00E008E5681 /* UseronboardingController.swift */; };
 		E88EBF21201B70D90058459E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EBF20201B70D90058459E /* HomeController.swift */; };
 		E88EBF24201B7CAB0058459E /* ic_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF23201B7CAB0058459E /* ic_splash.png */; };
 		E88EBF2E201B86C70058459E /* Icon-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF25201B86C60058459E /* Icon-20x20@2x.png */; };
@@ -59,6 +66,13 @@
 		D39A2B94D87F735BDB5E5FD3 /* Pods_MealsMadeEasyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealsMadeEasyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E814323E2018D06D00206C17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E81432402018D07E00206C17 /* MealsMadeEasy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MealsMadeEasy.entitlements; sourceTree = "<group>"; };
+		E883FF00203490FA00523A01 /* icons8-home-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-filled-22.png"; sourceTree = "<group>"; };
+		E883FF01203490FA00523A01 /* icons8-shopping-cart-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-shopping-cart-filled-22.png"; sourceTree = "<group>"; };
+		E883FF02203490FA00523A01 /* icons8-summary-list-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-summary-list-filled-22.png"; sourceTree = "<group>"; };
+		E883FF03203490FB00523A01 /* icons8-settings-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-settings-filled-22.png"; sourceTree = "<group>"; };
+		E883FF08203493DC00523A01 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E883FF0A203495B600523A01 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E8881649202DF00E008E5681 /* UseronboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseronboardingController.swift; sourceTree = "<group>"; };
 		E88EBF20201B70D90058459E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		E88EBF23201B7CAB0058459E /* ic_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_splash.png; sourceTree = "<group>"; };
 		E88EBF25201B86C60058459E /* Icon-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20x20@2x.png"; sourceTree = "<group>"; };
@@ -70,7 +84,7 @@
 		E88EBF2B201B86C60058459E /* Icon-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60x60@2x.png"; sourceTree = "<group>"; };
 		E88EBF2C201B86C60058459E /* Icon-marketing-1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-marketing-1024x1024.png"; sourceTree = "<group>"; };
 		E88EBF2D201B86C70058459E /* Icon-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40x40@3x.png"; sourceTree = "<group>"; };
-		E8A169C920101450005E997C /* MealsMadeEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealsMadeEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A169C920101450005E997C /* MealsMadeEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MealsMadeEasy.app; path = "Meals Made Easy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A169CC20101450005E997C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A169CE20101450005E997C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8A169D120101450005E997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,6 +155,9 @@
 			isa = PBXGroup;
 			children = (
 				E88EBF20201B70D90058459E /* HomeController.swift */,
+				E8881649202DF00E008E5681 /* UseronboardingController.swift */,
+				E883FF08203493DC00523A01 /* TabBarViewController.swift */,
+				E883FF0A203495B600523A01 /* TableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -148,6 +165,10 @@
 		E88EBF22201B7C970058459E /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				E883FF00203490FA00523A01 /* icons8-home-filled-22.png */,
+				E883FF03203490FB00523A01 /* icons8-settings-filled-22.png */,
+				E883FF01203490FA00523A01 /* icons8-shopping-cart-filled-22.png */,
+				E883FF02203490FA00523A01 /* icons8-summary-list-filled-22.png */,
 				E88EBF25201B86C60058459E /* Icon-20x20@2x.png */,
 				E88EBF2A201B86C60058459E /* Icon-20x20@3x.png */,
 				E88EBF29201B86C60058459E /* Icon-29x29@1x.png */,
@@ -342,6 +363,7 @@
 			files = (
 				E88EBF2F201B86C70058459E /* Icon-29x29@2x.png in Resources */,
 				E88EBF33201B86C70058459E /* Icon-20x20@3x.png in Resources */,
+				E883FF07203490FB00523A01 /* icons8-settings-filled-22.png in Resources */,
 				E88EBF2E201B86C70058459E /* Icon-20x20@2x.png in Resources */,
 				E88EBF36201B86C70058459E /* Icon-40x40@3x.png in Resources */,
 				E8A169D720101450005E997C /* LaunchScreen.storyboard in Resources */,
@@ -353,7 +375,10 @@
 				E88EBF35201B86C70058459E /* Icon-marketing-1024x1024.png in Resources */,
 				E88EBF24201B7CAB0058459E /* ic_splash.png in Resources */,
 				E88EBF31201B86C70058459E /* Icon-60x60@3x.png in Resources */,
+				E883FF04203490FB00523A01 /* icons8-home-filled-22.png in Resources */,
 				E88EBF32201B86C70058459E /* Icon-29x29@1x.png in Resources */,
+				E883FF05203490FB00523A01 /* icons8-shopping-cart-filled-22.png in Resources */,
+				E883FF06203490FB00523A01 /* icons8-summary-list-filled-22.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +442,8 @@
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -424,6 +451,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,8 +566,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E888164A202DF00E008E5681 /* UseronboardingController.swift in Sources */,
+				E883FF0B203495B600523A01 /* TableViewController.swift in Sources */,
 				E8A169CF20101450005E997C /* ViewController.swift in Sources */,
 				E8A169CD20101450005E997C /* AppDelegate.swift in Sources */,
+				E883FF09203493DC00523A01 /* TabBarViewController.swift in Sources */,
 				E88EBF21201B70D90058459E /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,6 +22,10 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     override func viewDidAppear(_ animated: Bool) {
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     func displayAlertMessage(userMessage: String) {
         let myAlert = UIAlertController(title: "Alert", message: userMessage, preferredStyle: UIAlertControllerStyle.alert)
         let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil)

@@ -10,7 +10,15 @@ import UIKit
 import Firebase
 
 class HomeController: UIViewController {
-
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     @IBAction func Signout(_ sender: Any) {
         let firebaseAuth = Auth.auth()
         do {
