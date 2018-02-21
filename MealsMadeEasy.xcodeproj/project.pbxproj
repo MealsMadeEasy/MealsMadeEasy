@@ -10,25 +10,31 @@
 		0B8F278C0458957255117954 /* Pods_MealsMadeEasyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568DE27882B407C503A28A5E /* Pods_MealsMadeEasyUITests.framework */; };
 		17B285D8E88DA7F31DB6494B /* Pods_MealsMadeEasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B30E37765AB9749F2999909 /* Pods_MealsMadeEasy.framework */; };
 		6D35945D3B680BA62ED8E0A9 /* Pods_MealsMadeEasyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39A2B94D87F735BDB5E5FD3 /* Pods_MealsMadeEasyTests.framework */; };
+		E8038F7A2036359400152816 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8038F792036359400152816 /* MealTableViewCell.swift */; };
+		E8111EE920364F8300721D73 /* ic_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111ED620364F8000721D73 /* ic_splash.png */; };
+		E8111EEA20364F8300721D73 /* Icon-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111ED720364F8000721D73 /* Icon-40x40@3x.png */; };
+		E8111EEB20364F8300721D73 /* bagel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8111ED820364F8000721D73 /* bagel.jpg */; };
+		E8111EEC20364F8300721D73 /* Icon-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111ED920364F8100721D73 /* Icon-29x29@1x.png */; };
+		E8111EED20364F8300721D73 /* icons8-summary-list-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EDA20364F8100721D73 /* icons8-summary-list-filled-22.png */; };
+		E8111EEE20364F8300721D73 /* sandwich.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E8111EDB20364F8100721D73 /* sandwich.jpeg */; };
+		E8111EEF20364F8300721D73 /* tacos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E8111EDC20364F8100721D73 /* tacos.jpeg */; };
+		E8111EF020364F8300721D73 /* Icon-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EDD20364F8100721D73 /* Icon-20x20@3x.png */; };
+		E8111EF120364F8300721D73 /* Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EDE20364F8100721D73 /* Icon-60x60@2x.png */; };
+		E8111EF220364F8300721D73 /* Icon-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EDF20364F8100721D73 /* Icon-20x20@2x.png */; };
+		E8111EF320364F8300721D73 /* icons8-shopping-cart-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE020364F8200721D73 /* icons8-shopping-cart-filled-22.png */; };
+		E8111EF420364F8300721D73 /* Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE120364F8200721D73 /* Icon-60x60@3x.png */; };
+		E8111EF520364F8300721D73 /* icons8-settings-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE220364F8200721D73 /* icons8-settings-filled-22.png */; };
+		E8111EF620364F8300721D73 /* Icon-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE320364F8200721D73 /* Icon-40x40@2x.png */; };
+		E8111EF720364F8300721D73 /* banana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE420364F8200721D73 /* banana.jpeg */; };
+		E8111EF820364F8300721D73 /* Icon-marketing-1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE520364F8200721D73 /* Icon-marketing-1024x1024.png */; };
+		E8111EF920364F8300721D73 /* cereal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE620364F8300721D73 /* cereal.jpg */; };
+		E8111EFA20364F8300721D73 /* icons8-home-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE720364F8300721D73 /* icons8-home-filled-22.png */; };
+		E8111EFB20364F8300721D73 /* Icon-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111EE820364F8300721D73 /* Icon-29x29@2x.png */; };
 		E814323F2018D06D00206C17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E814323E2018D06D00206C17 /* GoogleService-Info.plist */; };
-		E883FF04203490FB00523A01 /* icons8-home-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E883FF00203490FA00523A01 /* icons8-home-filled-22.png */; };
-		E883FF05203490FB00523A01 /* icons8-shopping-cart-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E883FF01203490FA00523A01 /* icons8-shopping-cart-filled-22.png */; };
-		E883FF06203490FB00523A01 /* icons8-summary-list-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E883FF02203490FA00523A01 /* icons8-summary-list-filled-22.png */; };
-		E883FF07203490FB00523A01 /* icons8-settings-filled-22.png in Resources */ = {isa = PBXBuildFile; fileRef = E883FF03203490FB00523A01 /* icons8-settings-filled-22.png */; };
 		E883FF09203493DC00523A01 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FF08203493DC00523A01 /* TabBarViewController.swift */; };
 		E883FF0B203495B600523A01 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FF0A203495B600523A01 /* TableViewController.swift */; };
 		E888164A202DF00E008E5681 /* UseronboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8881649202DF00E008E5681 /* UseronboardingController.swift */; };
 		E88EBF21201B70D90058459E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EBF20201B70D90058459E /* HomeController.swift */; };
-		E88EBF24201B7CAB0058459E /* ic_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF23201B7CAB0058459E /* ic_splash.png */; };
-		E88EBF2E201B86C70058459E /* Icon-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF25201B86C60058459E /* Icon-20x20@2x.png */; };
-		E88EBF2F201B86C70058459E /* Icon-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF26201B86C60058459E /* Icon-29x29@2x.png */; };
-		E88EBF30201B86C70058459E /* Icon-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF27201B86C60058459E /* Icon-40x40@2x.png */; };
-		E88EBF31201B86C70058459E /* Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF28201B86C60058459E /* Icon-60x60@3x.png */; };
-		E88EBF32201B86C70058459E /* Icon-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF29201B86C60058459E /* Icon-29x29@1x.png */; };
-		E88EBF33201B86C70058459E /* Icon-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF2A201B86C60058459E /* Icon-20x20@3x.png */; };
-		E88EBF34201B86C70058459E /* Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF2B201B86C60058459E /* Icon-60x60@2x.png */; };
-		E88EBF35201B86C70058459E /* Icon-marketing-1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF2C201B86C60058459E /* Icon-marketing-1024x1024.png */; };
-		E88EBF36201B86C70058459E /* Icon-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88EBF2D201B86C70058459E /* Icon-40x40@3x.png */; };
 		E8A169CD20101450005E997C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A169CC20101450005E997C /* AppDelegate.swift */; };
 		E8A169CF20101450005E997C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A169CE20101450005E997C /* ViewController.swift */; };
 		E8A169D220101450005E997C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A169D020101450005E997C /* Main.storyboard */; };
@@ -64,26 +70,32 @@
 		BED3F1B4FA4502726B4E04D8 /* Pods-MealsMadeEasyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsMadeEasyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealsMadeEasyUITests/Pods-MealsMadeEasyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA9BE1518AF9762096582948 /* Pods-MealsMadeEasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsMadeEasy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealsMadeEasy/Pods-MealsMadeEasy.debug.xcconfig"; sourceTree = "<group>"; };
 		D39A2B94D87F735BDB5E5FD3 /* Pods_MealsMadeEasyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealsMadeEasyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8038F792036359400152816 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MealTableViewCell.swift; path = Controllers/MealTableViewCell.swift; sourceTree = "<group>"; };
+		E8111ED620364F8000721D73 /* ic_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_splash.png; sourceTree = "<group>"; };
+		E8111ED720364F8000721D73 /* Icon-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40x40@3x.png"; sourceTree = "<group>"; };
+		E8111ED820364F8000721D73 /* bagel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagel.jpg; sourceTree = "<group>"; };
+		E8111ED920364F8100721D73 /* Icon-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29x29@1x.png"; sourceTree = "<group>"; };
+		E8111EDA20364F8100721D73 /* icons8-summary-list-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-summary-list-filled-22.png"; sourceTree = "<group>"; };
+		E8111EDB20364F8100721D73 /* sandwich.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sandwich.jpeg; sourceTree = "<group>"; };
+		E8111EDC20364F8100721D73 /* tacos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tacos.jpeg; sourceTree = "<group>"; };
+		E8111EDD20364F8100721D73 /* Icon-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20x20@3x.png"; sourceTree = "<group>"; };
+		E8111EDE20364F8100721D73 /* Icon-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60x60@2x.png"; sourceTree = "<group>"; };
+		E8111EDF20364F8100721D73 /* Icon-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20x20@2x.png"; sourceTree = "<group>"; };
+		E8111EE020364F8200721D73 /* icons8-shopping-cart-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-shopping-cart-filled-22.png"; sourceTree = "<group>"; };
+		E8111EE120364F8200721D73 /* Icon-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60x60@3x.png"; sourceTree = "<group>"; };
+		E8111EE220364F8200721D73 /* icons8-settings-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-settings-filled-22.png"; sourceTree = "<group>"; };
+		E8111EE320364F8200721D73 /* Icon-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40x40@2x.png"; sourceTree = "<group>"; };
+		E8111EE420364F8200721D73 /* banana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpeg; sourceTree = "<group>"; };
+		E8111EE520364F8200721D73 /* Icon-marketing-1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-marketing-1024x1024.png"; sourceTree = "<group>"; };
+		E8111EE620364F8300721D73 /* cereal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cereal.jpg; sourceTree = "<group>"; };
+		E8111EE720364F8300721D73 /* icons8-home-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-filled-22.png"; sourceTree = "<group>"; };
+		E8111EE820364F8300721D73 /* Icon-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29x29@2x.png"; sourceTree = "<group>"; };
 		E814323E2018D06D00206C17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E81432402018D07E00206C17 /* MealsMadeEasy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MealsMadeEasy.entitlements; sourceTree = "<group>"; };
-		E883FF00203490FA00523A01 /* icons8-home-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-filled-22.png"; sourceTree = "<group>"; };
-		E883FF01203490FA00523A01 /* icons8-shopping-cart-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-shopping-cart-filled-22.png"; sourceTree = "<group>"; };
-		E883FF02203490FA00523A01 /* icons8-summary-list-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-summary-list-filled-22.png"; sourceTree = "<group>"; };
-		E883FF03203490FB00523A01 /* icons8-settings-filled-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-settings-filled-22.png"; sourceTree = "<group>"; };
 		E883FF08203493DC00523A01 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		E883FF0A203495B600523A01 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E8881649202DF00E008E5681 /* UseronboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseronboardingController.swift; sourceTree = "<group>"; };
 		E88EBF20201B70D90058459E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		E88EBF23201B7CAB0058459E /* ic_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_splash.png; sourceTree = "<group>"; };
-		E88EBF25201B86C60058459E /* Icon-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20x20@2x.png"; sourceTree = "<group>"; };
-		E88EBF26201B86C60058459E /* Icon-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29x29@2x.png"; sourceTree = "<group>"; };
-		E88EBF27201B86C60058459E /* Icon-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40x40@2x.png"; sourceTree = "<group>"; };
-		E88EBF28201B86C60058459E /* Icon-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60x60@3x.png"; sourceTree = "<group>"; };
-		E88EBF29201B86C60058459E /* Icon-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29x29@1x.png"; sourceTree = "<group>"; };
-		E88EBF2A201B86C60058459E /* Icon-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20x20@3x.png"; sourceTree = "<group>"; };
-		E88EBF2B201B86C60058459E /* Icon-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60x60@2x.png"; sourceTree = "<group>"; };
-		E88EBF2C201B86C60058459E /* Icon-marketing-1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-marketing-1024x1024.png"; sourceTree = "<group>"; };
-		E88EBF2D201B86C70058459E /* Icon-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40x40@3x.png"; sourceTree = "<group>"; };
 		E8A169C920101450005E997C /* MealsMadeEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MealsMadeEasy.app; path = "Meals Made Easy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A169CC20101450005E997C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A169CE20101450005E997C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +163,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E8111ED520364F6300721D73 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				E8111ED820364F8000721D73 /* bagel.jpg */,
+				E8111EE420364F8200721D73 /* banana.jpeg */,
+				E8111EE620364F8300721D73 /* cereal.jpg */,
+				E8111ED620364F8000721D73 /* ic_splash.png */,
+				E8111EDF20364F8100721D73 /* Icon-20x20@2x.png */,
+				E8111EDD20364F8100721D73 /* Icon-20x20@3x.png */,
+				E8111ED920364F8100721D73 /* Icon-29x29@1x.png */,
+				E8111EE820364F8300721D73 /* Icon-29x29@2x.png */,
+				E8111EE320364F8200721D73 /* Icon-40x40@2x.png */,
+				E8111ED720364F8000721D73 /* Icon-40x40@3x.png */,
+				E8111EDE20364F8100721D73 /* Icon-60x60@2x.png */,
+				E8111EE120364F8200721D73 /* Icon-60x60@3x.png */,
+				E8111EE520364F8200721D73 /* Icon-marketing-1024x1024.png */,
+				E8111EE720364F8300721D73 /* icons8-home-filled-22.png */,
+				E8111EE220364F8200721D73 /* icons8-settings-filled-22.png */,
+				E8111EE020364F8200721D73 /* icons8-shopping-cart-filled-22.png */,
+				E8111EDA20364F8100721D73 /* icons8-summary-list-filled-22.png */,
+				E8111EDB20364F8100721D73 /* sandwich.jpeg */,
+				E8111EDC20364F8100721D73 /* tacos.jpeg */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		E88EBF1E201B702C0058459E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,27 +198,6 @@
 				E883FF0A203495B600523A01 /* TableViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		E88EBF22201B7C970058459E /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				E883FF00203490FA00523A01 /* icons8-home-filled-22.png */,
-				E883FF03203490FB00523A01 /* icons8-settings-filled-22.png */,
-				E883FF01203490FA00523A01 /* icons8-shopping-cart-filled-22.png */,
-				E883FF02203490FA00523A01 /* icons8-summary-list-filled-22.png */,
-				E88EBF25201B86C60058459E /* Icon-20x20@2x.png */,
-				E88EBF2A201B86C60058459E /* Icon-20x20@3x.png */,
-				E88EBF29201B86C60058459E /* Icon-29x29@1x.png */,
-				E88EBF26201B86C60058459E /* Icon-29x29@2x.png */,
-				E88EBF27201B86C60058459E /* Icon-40x40@2x.png */,
-				E88EBF2D201B86C70058459E /* Icon-40x40@3x.png */,
-				E88EBF2B201B86C60058459E /* Icon-60x60@2x.png */,
-				E88EBF28201B86C60058459E /* Icon-60x60@3x.png */,
-				E88EBF2C201B86C60058459E /* Icon-marketing-1024x1024.png */,
-				E88EBF23201B7CAB0058459E /* ic_splash.png */,
-			);
-			path = assets;
 			sourceTree = "<group>";
 		};
 		E8A169C02010144F005E997C = {
@@ -208,7 +225,7 @@
 		E8A169CB20101450005E997C /* MealsMadeEasy */ = {
 			isa = PBXGroup;
 			children = (
-				E88EBF22201B7C970058459E /* assets */,
+				E8111ED520364F6300721D73 /* assets */,
 				E88EBF1E201B702C0058459E /* Controllers */,
 				E81432402018D07E00206C17 /* MealsMadeEasy.entitlements */,
 				E8A169CC20101450005E997C /* AppDelegate.swift */,
@@ -218,6 +235,7 @@
 				E8A169D820101450005E997C /* Info.plist */,
 				E8A169CE20101450005E997C /* ViewController.swift */,
 				E8A169D020101450005E997C /* Main.storyboard */,
+				E8038F792036359400152816 /* MealTableViewCell.swift */,
 			);
 			path = MealsMadeEasy;
 			sourceTree = "<group>";
@@ -361,24 +379,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88EBF2F201B86C70058459E /* Icon-29x29@2x.png in Resources */,
-				E88EBF33201B86C70058459E /* Icon-20x20@3x.png in Resources */,
-				E883FF07203490FB00523A01 /* icons8-settings-filled-22.png in Resources */,
-				E88EBF2E201B86C70058459E /* Icon-20x20@2x.png in Resources */,
-				E88EBF36201B86C70058459E /* Icon-40x40@3x.png in Resources */,
+				E8111EF220364F8300721D73 /* Icon-20x20@2x.png in Resources */,
 				E8A169D720101450005E997C /* LaunchScreen.storyboard in Resources */,
+				E8111EF920364F8300721D73 /* cereal.jpg in Resources */,
+				E8111EEC20364F8300721D73 /* Icon-29x29@1x.png in Resources */,
+				E8111EF520364F8300721D73 /* icons8-settings-filled-22.png in Resources */,
+				E8111EF620364F8300721D73 /* Icon-40x40@2x.png in Resources */,
+				E8111EEF20364F8300721D73 /* tacos.jpeg in Resources */,
+				E8111EF820364F8300721D73 /* Icon-marketing-1024x1024.png in Resources */,
+				E8111EF320364F8300721D73 /* icons8-shopping-cart-filled-22.png in Resources */,
+				E8111EF720364F8300721D73 /* banana.jpeg in Resources */,
+				E8111EEA20364F8300721D73 /* Icon-40x40@3x.png in Resources */,
+				E8111EEB20364F8300721D73 /* bagel.jpg in Resources */,
+				E8111EEE20364F8300721D73 /* sandwich.jpeg in Resources */,
 				E814323F2018D06D00206C17 /* GoogleService-Info.plist in Resources */,
-				E88EBF30201B86C70058459E /* Icon-40x40@2x.png in Resources */,
+				E8111EF420364F8300721D73 /* Icon-60x60@3x.png in Resources */,
 				E8A169D420101450005E997C /* Assets.xcassets in Resources */,
+				E8111EFA20364F8300721D73 /* icons8-home-filled-22.png in Resources */,
+				E8111EFB20364F8300721D73 /* Icon-29x29@2x.png in Resources */,
+				E8111EF120364F8300721D73 /* Icon-60x60@2x.png in Resources */,
 				E8A169D220101450005E997C /* Main.storyboard in Resources */,
-				E88EBF34201B86C70058459E /* Icon-60x60@2x.png in Resources */,
-				E88EBF35201B86C70058459E /* Icon-marketing-1024x1024.png in Resources */,
-				E88EBF24201B7CAB0058459E /* ic_splash.png in Resources */,
-				E88EBF31201B86C70058459E /* Icon-60x60@3x.png in Resources */,
-				E883FF04203490FB00523A01 /* icons8-home-filled-22.png in Resources */,
-				E88EBF32201B86C70058459E /* Icon-29x29@1x.png in Resources */,
-				E883FF05203490FB00523A01 /* icons8-shopping-cart-filled-22.png in Resources */,
-				E883FF06203490FB00523A01 /* icons8-summary-list-filled-22.png in Resources */,
+				E8111EF020364F8300721D73 /* Icon-20x20@3x.png in Resources */,
+				E8111EE920364F8300721D73 /* ic_splash.png in Resources */,
+				E8111EED20364F8300721D73 /* icons8-summary-list-filled-22.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +591,7 @@
 			files = (
 				E888164A202DF00E008E5681 /* UseronboardingController.swift in Sources */,
 				E883FF0B203495B600523A01 /* TableViewController.swift in Sources */,
+				E8038F7A2036359400152816 /* MealTableViewCell.swift in Sources */,
 				E8A169CF20101450005E997C /* ViewController.swift in Sources */,
 				E8A169CD20101450005E997C /* AppDelegate.swift in Sources */,
 				E883FF09203493DC00523A01 /* TabBarViewController.swift in Sources */,
