@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import M13Checkbox
 import Firebase
 
 class HomeController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let checkbox = M13Checkbox(frame: CGRect(x: 0.0, y: 0.0, width: 40.0, height: 40.0))
+        view.addSubview(checkbox)
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
