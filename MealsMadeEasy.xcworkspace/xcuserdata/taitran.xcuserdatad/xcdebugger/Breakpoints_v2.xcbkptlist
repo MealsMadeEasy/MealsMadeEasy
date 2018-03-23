@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MealsMadeEasy/Controllers/MealDetail/MealDetailViewController.swift"
-            timestampString = "542905673.090081"
+            timestampString = "543525580.619472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "MealDetailViewController"
             landmarkType = "3">
          </BreakpointContent>

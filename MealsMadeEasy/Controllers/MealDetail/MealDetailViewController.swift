@@ -9,17 +9,16 @@
 import UIKit
 
 class MealDetailViewController: UIViewController {
-
-    @IBAction func backNavigation(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
-    }
+    
+    
     @IBAction func backNav(_ sender: Any) {
-         navigationController?.popViewController(animated: true)
+        self.navigationController?.popViewController(animated: true)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-       
     }
+    
     @objc func callMethod() {
         //do stuff here
     }

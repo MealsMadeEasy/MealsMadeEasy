@@ -17,11 +17,6 @@ class SuggestionUIViewController: UIViewController, UITableViewDelegate, UITable
         return(list.count)
     }
     
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "MealDetail") as! MealDetailViewController
-        self.present(vc, animated: true, completion: nil)
-    }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "SuggestionTableViewCell", for: indexPath) as? SuggestionTableViewCell  else {
             fatalError("The dequeued cell is not an instance of SuggestionTableViewCell.")

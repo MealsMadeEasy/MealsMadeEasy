@@ -53,6 +53,9 @@
 		E8B71FD72059E994009BF8B7 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B71FD52059E994009BF8B7 /* back.png */; };
 		E8C6FAB5205C127900CD0F62 /* back-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C6FAB4205C127900CD0F62 /* back-50.png */; };
 		E8C6FAB7205C12BB00CD0F62 /* back-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C6FAB6205C12BB00CD0F62 /* back-25.png */; };
+		E8F277472065810A0074B9D8 /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F277462065810A0074B9D8 /* AddMealViewController.swift */; };
+		E8F2774A206583AD0074B9D8 /* icons8-minus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F27748206583AC0074B9D8 /* icons8-minus-50.png */; };
+		E8F2774B206583AD0074B9D8 /* icons8-plus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F27749206583AC0074B9D8 /* icons8-plus-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +134,9 @@
 		E8B71FD52059E994009BF8B7 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		E8C6FAB4205C127900CD0F62 /* back-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-50.png"; sourceTree = "<group>"; };
 		E8C6FAB6205C12BB00CD0F62 /* back-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-25.png"; sourceTree = "<group>"; };
+		E8F277462065810A0074B9D8 /* AddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
+		E8F27748206583AC0074B9D8 /* icons8-minus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-minus-50.png"; sourceTree = "<group>"; };
+		E8F27749206583AC0074B9D8 /* icons8-plus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-plus-50.png"; sourceTree = "<group>"; };
 		F0CAEE9BA2502B1DF3EB23DC /* Pods-MealsMadeEasyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsMadeEasyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealsMadeEasyUITests/Pods-MealsMadeEasyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -214,6 +220,8 @@
 		E8111ED520364F6300721D73 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				E8F27748206583AC0074B9D8 /* icons8-minus-50.png */,
+				E8F27749206583AC0074B9D8 /* icons8-plus-50.png */,
 				E8C6FAB6205C12BB00CD0F62 /* back-25.png */,
 				E8C6FAB4205C127900CD0F62 /* back-50.png */,
 				E8B71FD42059E994009BF8B7 /* add.png */,
@@ -255,6 +263,7 @@
 		E88EBF1E201B702C0058459E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E8F27745206580ED0074B9D8 /* AddMeal */,
 				E8B71FCD2059DF9B009BF8B7 /* MealDetail */,
 				E853308A2052E789008E6584 /* Suggestions */,
 				E809FC84204CD9EA000F5B7F /* UserOnboarding */,
@@ -329,6 +338,14 @@
 				E8B71FCE2059DFB2009BF8B7 /* MealDetailViewController.swift */,
 			);
 			path = MealDetail;
+			sourceTree = "<group>";
+		};
+		E8F27745206580ED0074B9D8 /* AddMeal */ = {
+			isa = PBXGroup;
+			children = (
+				E8F277462065810A0074B9D8 /* AddMealViewController.swift */,
+			);
+			path = AddMeal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,6 +480,7 @@
 				E8111EF620364F8300721D73 /* Icon-40x40@2x.png in Resources */,
 				E8111EEF20364F8300721D73 /* tacos.jpeg in Resources */,
 				E8111EF820364F8300721D73 /* Icon-marketing-1024x1024.png in Resources */,
+				E8F2774B206583AD0074B9D8 /* icons8-plus-50.png in Resources */,
 				E8111EF320364F8300721D73 /* icons8-shopping-cart-filled-22.png in Resources */,
 				E8C6FAB7205C12BB00CD0F62 /* back-25.png in Resources */,
 				E8111EF720364F8300721D73 /* banana.jpeg in Resources */,
@@ -479,6 +497,7 @@
 				E8A169D220101450005E997C /* Main.storyboard in Resources */,
 				E8111EF020364F8300721D73 /* Icon-20x20@3x.png in Resources */,
 				E8111EE920364F8300721D73 /* ic_splash.png in Resources */,
+				E8F2774A206583AD0074B9D8 /* icons8-minus-50.png in Resources */,
 				E8111EED20364F8300721D73 /* icons8-summary-list-filled-22.png in Resources */,
 				E8B71FD62059E994009BF8B7 /* add.png in Resources */,
 			);
@@ -682,6 +701,7 @@
 				E853308E2052E7DB008E6584 /* SuggestionTableViewCell.swift in Sources */,
 				E8A169CD20101450005E997C /* AppDelegate.swift in Sources */,
 				E883FF09203493DC00523A01 /* TabBarViewController.swift in Sources */,
+				E8F277472065810A0074B9D8 /* AddMealViewController.swift in Sources */,
 				E809FC7F204CD98B000F5B7F /* ShoppingViewController.swift in Sources */,
 				E88EBF21201B70D90058459E /* HomeController.swift in Sources */,
 			);

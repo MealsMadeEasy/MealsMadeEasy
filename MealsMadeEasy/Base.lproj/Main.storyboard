@@ -228,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOY-hR-P3L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4320" y="868"/>
+            <point key="canvasLocation" x="4933.3333333333339" y="867.39130434782612"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="Xb2-Pj-afl">
@@ -249,9 +249,9 @@
                         </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
-                        <segue destination="oEW-jK-JOI" kind="relationship" relationship="viewControllers" id="Kx4-S9-6Ho"/>
+                        <segue destination="pAt-Yk-CTF" kind="relationship" relationship="viewControllers" id="Kx4-S9-6Ho"/>
                         <segue destination="7J1-vH-H8t" kind="relationship" relationship="viewControllers" id="eEt-Ug-BMh"/>
-                        <segue destination="P9g-hc-QIc" kind="relationship" relationship="viewControllers" id="gIX-pb-xTG"/>
+                        <segue destination="Rz7-n1-hbR" kind="relationship" relationship="viewControllers" id="gIX-pb-xTG"/>
                         <segue destination="YMH-1i-9UJ" kind="relationship" relationship="viewControllers" id="9Rf-bD-jxg"/>
                     </connections>
                 </tabBarController>
@@ -312,9 +312,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BAt-xc-eIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3511.594202898551" y="879.61956521739137"/>
+            <point key="canvasLocation" x="4126.086956521739" y="879.61956521739137"/>
         </scene>
-        <!--Home-->
+        <!--Table View Controller-->
         <scene sceneID="9wk-Qm-LAi">
             <objects>
                 <viewController id="oEW-jK-JOI" customClass="TableViewController" customModule="Meals_Made_Easy" customModuleProvider="target" sceneMemberID="viewController">
@@ -477,13 +477,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="oGy-4l-kLx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="icons8-home-filled-22.png" id="vpX-sd-ewX"/>
+                    <navigationItem key="navigationItem" id="Ydt-97-9A6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UXI-yV-iQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1963.7681159420292" y="879.61956521739137"/>
+            <point key="canvasLocation" x="1720" y="867"/>
         </scene>
-        <!--Suggestions-->
+        <!--SuggestionUI View Controller-->
         <scene sceneID="amo-Ws-4tm">
             <objects>
                 <viewController id="P9g-hc-QIc" customClass="SuggestionUIViewController" customModule="Meals_Made_Easy" customModuleProvider="target" sceneMemberID="viewController">
@@ -557,11 +557,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Kul-8L-Iop"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Suggestions" image="icons8-summary-list-filled-22.png" id="ekd-xJ-wEv"/>
+                    <navigationItem key="navigationItem" id="HQL-RM-Njn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yqC-GY-mkG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2740.579710144928" y="879.61956521739137"/>
+            <point key="canvasLocation" x="3421.739130434783" y="866.57608695652186"/>
         </scene>
         <!--Meal Detail View Controller-->
         <scene sceneID="VUu-qy-vDk">
@@ -584,20 +584,16 @@
                                         </textAttributes>
                                         <items>
                                             <navigationItem title="Meal Detail" id="gqG-xU-UWL">
-                                                <barButtonItem key="leftBarButtonItem" title="asd" style="plain" id="J7V-MM-Nnb">
-                                                    <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="Pwx-Fy-cHc">
+                                                <barButtonItem key="leftBarButtonItem" title="asd" style="plain" id="Dh2-0A-v5G">
+                                                    <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="0hg-jc-7rj">
                                                         <rect key="frame" x="20" y="0.0" width="92" height="44"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <state key="normal" image="back-25.png"/>
                                                         <connections>
-                                                            <action selector="backNav:" destination="9Ep-RW-Icd" eventType="touchUpInside" id="SPg-Nf-wDx"/>
-                                                            <action selector="backNavigation:" destination="9Ep-RW-Icd" eventType="touchUpInside" id="z5F-yG-Kb1"/>
+                                                            <action selector="backNav:" destination="9Ep-RW-Icd" eventType="touchUpInside" id="mRL-7k-1tb"/>
                                                         </connections>
                                                     </button>
-                                                    <connections>
-                                                        <action selector="backNav:" destination="9Ep-RW-Icd" id="nrj-wH-mef"/>
-                                                    </connections>
                                                 </barButtonItem>
                                                 <barButtonItem key="rightBarButtonItem" systemItem="add" id="cPf-wD-7RN">
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -648,6 +644,13 @@ Place dough in a greased bowl, cover and let rise until double.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgR-BV-0CY">
+                                <rect key="frame" x="246" y="313" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="a7T-Rz-x3S"/>
@@ -655,12 +658,12 @@ Place dough in a greased bowl, cover and let rise until double.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8s-Mc-14z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2740.579710144928" y="1570.9239130434785"/>
+            <point key="canvasLocation" x="3422" y="1611"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Meal View Controller-->
         <scene sceneID="9vY-d7-aCP">
             <objects>
-                <viewController id="lr2-B7-Vvh" sceneMemberID="viewController">
+                <viewController id="lr2-B7-Vvh" customClass="AddMealViewController" customModule="Meals_Made_Easy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gu1-03-Ccz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -669,7 +672,7 @@ Place dough in a greased bowl, cover and let rise until double.</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CK6-KD-h7C">
+                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJ6-ra-svU">
                                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <color key="barTintColor" red="0.99607843139999996" green="0.59215686270000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -677,17 +680,24 @@ Place dough in a greased bowl, cover and let rise until double.</string>
                                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </textAttributes>
                                         <items>
-                                            <navigationItem title="Add to meal plan" id="l7j-yO-Yiq">
-                                                <barButtonItem key="leftBarButtonItem" title="asd" style="plain" id="Dh2-0A-v5G">
-                                                    <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="0hg-jc-7rj">
+                                            <navigationItem title="Add to meal plan" id="fQy-GE-tdr">
+                                                <barButtonItem key="leftBarButtonItem" title="asd" style="plain" id="3XT-Yh-6lh">
+                                                    <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="xz2-4l-Ga1">
                                                         <rect key="frame" x="20" y="0.0" width="92" height="44"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <state key="normal" image="back-25.png"/>
+                                                        <connections>
+                                                            <action selector="backNav:" destination="9Ep-RW-Icd" eventType="touchUpInside" id="rOE-ZY-Yhk"/>
+                                                            <action selector="backNavigation:" destination="lr2-B7-Vvh" eventType="touchUpInside" id="363-6n-IaT"/>
+                                                        </connections>
                                                     </button>
                                                 </barButtonItem>
-                                                <barButtonItem key="rightBarButtonItem" systemItem="save" id="wAe-ol-fK0">
+                                                <barButtonItem key="rightBarButtonItem" systemItem="save" id="z6D-hQ-fmr">
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="saveMeal:" destination="lr2-B7-Vvh" id="jcH-Jd-OU6"/>
+                                                    </connections>
                                                 </barButtonItem>
                                             </navigationItem>
                                         </items>
@@ -713,7 +723,7 @@ Place dough in a greased bowl, cover and let rise until double.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmM-Ud-vAn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meal Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmM-Ud-vAn">
                                 <rect key="frame" x="20" y="324" width="179" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
@@ -730,21 +740,77 @@ Place dough in a greased bowl, cover and let rise until double.</string>
                                     <action selector="birthDay:" destination="ak2-6B-W5g" eventType="editingDidEnd" id="ssq-qc-uDd"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9PZ-HV-DIj">
-                                <rect key="frame" x="203" y="254" width="8" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9PZ-HV-DIj">
+                                <rect key="frame" x="183" y="254" width="50" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdg-6D-PJu">
+                                <rect key="frame" x="241" y="253" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="icons8-plus-50.png"/>
+                                <connections>
+                                    <action selector="addServing:" destination="lr2-B7-Vvh" eventType="touchUpInside" id="vE9-qQ-3ru"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5o-ll-XNa">
+                                <rect key="frame" x="153" y="253" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="icons8-minus-50.png"/>
+                                <connections>
+                                    <action selector="substractServing:" destination="lr2-B7-Vvh" eventType="touchUpInside" id="0mh-FD-Q4R"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ra2-c2-Nhs"/>
                     </view>
+                    <connections>
+                        <outlet property="mealDate" destination="ipq-Ko-XXW" id="YWd-gl-PLf"/>
+                        <outlet property="servings" destination="9PZ-HV-DIj" id="dBn-uD-pnw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGE-8k-ie4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3511.594202898551" y="1570.9239130434785"/>
+            <point key="canvasLocation" x="4124.6376811594209" y="1610.8695652173915"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="sq1-zn-BRX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="pAt-Yk-CTF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="icons8-home-filled-22.png" id="vpX-sd-ewX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6v0-Mk-tgC">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oEW-jK-JOI" kind="relationship" relationship="rootViewController" id="Ilu-ZU-sCO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wBU-JP-bE4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1019" y="867"/>
+        </scene>
+        <!--Suggestions-->
+        <scene sceneID="HgL-Hz-k4Q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Rz7-n1-hbR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Suggestions" image="icons8-summary-list-filled-22.png" id="ekd-xJ-wEv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wBX-iv-vdU">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="P9g-hc-QIc" kind="relationship" relationship="rootViewController" id="i09-h5-7np"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aae-5b-4Bw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2741" y="867"/>
         </scene>
     </scenes>
     <resources>
@@ -752,6 +818,8 @@ Place dough in a greased bowl, cover and let rise until double.</string>
         <image name="bagel" width="750" height="499"/>
         <image name="ic_splash.png" width="345" height="345"/>
         <image name="icons8-home-filled-22.png" width="22" height="22"/>
+        <image name="icons8-minus-50.png" width="50" height="50"/>
+        <image name="icons8-plus-50.png" width="50" height="50"/>
         <image name="icons8-settings-filled-22.png" width="22" height="22"/>
         <image name="icons8-shopping-cart-filled-22.png" width="22" height="22"/>
         <image name="icons8-summary-list-filled-22.png" width="22" height="22"/>
