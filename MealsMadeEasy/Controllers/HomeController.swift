@@ -14,7 +14,8 @@ class HomeController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let checkbox = M13Checkbox(frame: CGRect(x: 0.0, y: 0.0, width: 40.0, height: 40.0))
+        let checkbox = M13Checkbox(frame: CGRect(x: 200, y: 300, width: 40.0, height: 40.0))
+        checkbox.boxType = .square
         view.addSubview(checkbox)
     }
     

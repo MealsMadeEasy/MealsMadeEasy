@@ -8,7 +8,6 @@ target 'MealsMadeEasy' do
 	pod 'Firebase/Auth'
 	pod 'GoogleSignIn'
     pod 'Material', '~> 2.0'
-    pod 'DLRadioButton', '~> 1.4'
     pod 'M13Checkbox'
   # Pods for MealsMadeEasy
 

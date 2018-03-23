@@ -8,7 +8,21 @@
 
 import UIKit
 
-class ShoppingViewController: UIViewController {
+class ShoppingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    let list = [[]]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return(list.count)
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ShoppingTableViewCell", for: indexPath) as? ShoppingTableViewCell  else {
+            fatalError("The dequeued cell is not an instance of ShoppingTableViewCell.")
+        }
+        return cell
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
