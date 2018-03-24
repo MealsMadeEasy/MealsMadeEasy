@@ -11,8 +11,6 @@
 		17B285D8E88DA7F31DB6494B /* Pods_MealsMadeEasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B30E37765AB9749F2999909 /* Pods_MealsMadeEasy.framework */; };
 		6D35945D3B680BA62ED8E0A9 /* Pods_MealsMadeEasyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39A2B94D87F735BDB5E5FD3 /* Pods_MealsMadeEasyTests.framework */; };
 		E8038F7A2036359400152816 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8038F792036359400152816 /* MealTableViewCell.swift */; };
-		E809FC7F204CD98B000F5B7F /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809FC7E204CD98B000F5B7F /* ShoppingViewController.swift */; };
-		E809FC81204CD9BF000F5B7F /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809FC80204CD9BF000F5B7F /* ShoppingTableViewCell.swift */; };
 		E8111EE920364F8300721D73 /* ic_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111ED620364F8000721D73 /* ic_splash.png */; };
 		E8111EEA20364F8300721D73 /* Icon-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8111ED720364F8000721D73 /* Icon-40x40@3x.png */; };
 		E8111EEB20364F8300721D73 /* bagel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8111ED820364F8000721D73 /* bagel.jpg */; };
@@ -56,6 +54,8 @@
 		E8F277472065810A0074B9D8 /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F277462065810A0074B9D8 /* AddMealViewController.swift */; };
 		E8F2774A206583AD0074B9D8 /* icons8-minus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F27748206583AC0074B9D8 /* icons8-minus-50.png */; };
 		E8F2774B206583AD0074B9D8 /* icons8-plus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F27749206583AC0074B9D8 /* icons8-plus-50.png */; };
+		E8F277522065C9760074B9D8 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F277512065C9760074B9D8 /* ShoppingViewController.swift */; };
+		E8F277542065C9AA0074B9D8 /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F277532065C9A90074B9D8 /* ShoppingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +85,6 @@
 		CA9BE1518AF9762096582948 /* Pods-MealsMadeEasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsMadeEasy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealsMadeEasy/Pods-MealsMadeEasy.debug.xcconfig"; sourceTree = "<group>"; };
 		D39A2B94D87F735BDB5E5FD3 /* Pods_MealsMadeEasyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealsMadeEasyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8038F792036359400152816 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
-		E809FC7E204CD98B000F5B7F /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
-		E809FC80204CD9BF000F5B7F /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 		E8111ED620364F8000721D73 /* ic_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_splash.png; sourceTree = "<group>"; };
 		E8111ED720364F8000721D73 /* Icon-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40x40@3x.png"; sourceTree = "<group>"; };
 		E8111ED820364F8000721D73 /* bagel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagel.jpg; sourceTree = "<group>"; };
@@ -137,6 +135,8 @@
 		E8F277462065810A0074B9D8 /* AddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
 		E8F27748206583AC0074B9D8 /* icons8-minus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-minus-50.png"; sourceTree = "<group>"; };
 		E8F27749206583AC0074B9D8 /* icons8-plus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-plus-50.png"; sourceTree = "<group>"; };
+		E8F277512065C9760074B9D8 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		E8F277532065C9A90074B9D8 /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 		F0CAEE9BA2502B1DF3EB23DC /* Pods-MealsMadeEasyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsMadeEasyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealsMadeEasyUITests/Pods-MealsMadeEasyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,15 +189,6 @@
 				F0CAEE9BA2502B1DF3EB23DC /* Pods-MealsMadeEasyUITests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		E809FC82204CD9C5000F5B7F /* Shopping */ = {
-			isa = PBXGroup;
-			children = (
-				E809FC7E204CD98B000F5B7F /* ShoppingViewController.swift */,
-				E809FC80204CD9BF000F5B7F /* ShoppingTableViewCell.swift */,
-			);
-			path = Shopping;
 			sourceTree = "<group>";
 		};
 		E809FC83204CD9D6000F5B7F /* Meals */ = {
@@ -263,12 +254,12 @@
 		E88EBF1E201B702C0058459E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E8F277502065C94B0074B9D8 /* Shopping */,
 				E8F27745206580ED0074B9D8 /* AddMeal */,
 				E8B71FCD2059DF9B009BF8B7 /* MealDetail */,
 				E853308A2052E789008E6584 /* Suggestions */,
 				E809FC84204CD9EA000F5B7F /* UserOnboarding */,
 				E809FC83204CD9D6000F5B7F /* Meals */,
-				E809FC82204CD9C5000F5B7F /* Shopping */,
 				E88EBF20201B70D90058459E /* HomeController.swift */,
 				E883FF08203493DC00523A01 /* TabBarViewController.swift */,
 			);
@@ -346,6 +337,16 @@
 				E8F277462065810A0074B9D8 /* AddMealViewController.swift */,
 			);
 			path = AddMeal;
+			sourceTree = "<group>";
+		};
+		E8F277502065C94B0074B9D8 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				E8F277512065C9760074B9D8 /* ShoppingViewController.swift */,
+				E8F277532065C9A90074B9D8 /* ShoppingTableViewCell.swift */,
+			);
+			name = Shopping;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -690,17 +691,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E888164A202DF00E008E5681 /* UseronboardingController.swift in Sources */,
+				E8F277542065C9AA0074B9D8 /* ShoppingTableViewCell.swift in Sources */,
+				E8F277522065C9760074B9D8 /* ShoppingViewController.swift in Sources */,
 				E883FF0B203495B600523A01 /* TableViewController.swift in Sources */,
 				E8B71FCF2059DFB2009BF8B7 /* MealDetailViewController.swift in Sources */,
 				E853308C2052E7C5008E6584 /* SuggestionUIViewController.swift in Sources */,
 				E8038F7A2036359400152816 /* MealTableViewCell.swift in Sources */,
 				E8A169CF20101450005E997C /* ViewController.swift in Sources */,
-				E809FC81204CD9BF000F5B7F /* ShoppingTableViewCell.swift in Sources */,
 				E853308E2052E7DB008E6584 /* SuggestionTableViewCell.swift in Sources */,
 				E8A169CD20101450005E997C /* AppDelegate.swift in Sources */,
 				E883FF09203493DC00523A01 /* TabBarViewController.swift in Sources */,
 				E8F277472065810A0074B9D8 /* AddMealViewController.swift in Sources */,
-				E809FC7F204CD98B000F5B7F /* ShoppingViewController.swift in Sources */,
 				E88EBF21201B70D90058459E /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

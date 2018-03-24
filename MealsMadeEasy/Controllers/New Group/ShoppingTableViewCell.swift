@@ -2,17 +2,24 @@
 //  ShoppingTableViewCell.swift
 //  MealsMadeEasy
 //
-//  Created by Tai Tran on 3/4/18.
+//  Created by Tai Tran on 3/23/18.
 //  Copyright © 2018 Tai Tran. All rights reserved.
 //
 
 import UIKit
+import M13Checkbox
 
 class ShoppingTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var UICheckBox: UIView!
+    @IBOutlet weak var ingredient: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        let checkbox = M13Checkbox(frame: CGRect(x: 0, y: 0, width: 22.0, height: 22.0))
+        checkbox.boxType = .square
+        UICheckBox.addSubview(checkbox)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
