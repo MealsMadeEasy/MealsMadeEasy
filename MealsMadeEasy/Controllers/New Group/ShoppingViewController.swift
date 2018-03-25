@@ -10,7 +10,7 @@ import UIKit
 
 class ShoppingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let list = [[]]
+    let list = [["2 tablespoons white sugar"], ["7 bread flour"], ["1 tablespoon vegetable oil"], ["1 tablespoon salt"], ["3 tablespoons poppy seeds (optional)"]]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return(list.count)
@@ -20,7 +20,7 @@ class ShoppingViewController: UIViewController, UITableViewDelegate, UITableView
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ShoppingTableViewCell", for: indexPath) as? ShoppingTableViewCell  else {
             fatalError("The dequeued cell is not an instance of ShoppingTableViewCell.")
         }
-        cell.ingredient?.text = "2 cups warm water (110 degrees F/45 degrees C)"
+        cell.ingredient?.text = list[indexPath.row][0] as? String
         return cell
     }
     

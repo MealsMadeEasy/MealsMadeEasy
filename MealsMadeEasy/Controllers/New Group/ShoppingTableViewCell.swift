@@ -17,8 +17,11 @@ class ShoppingTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        let checkbox = M13Checkbox(frame: CGRect(x: 0, y: 0, width: 22.0, height: 22.0))
+        let checkbox = M13Checkbox(frame: CGRect(x: 0, y: 0, width: 29.0, height: 29.0))
+        checkbox.stateChangeAnimation = .bounce(.fill)
+        checkbox.tintColor = .orange
         checkbox.boxType = .square
+        checkbox.isEnabled = true
         UICheckBox.addSubview(checkbox)
     }
 
