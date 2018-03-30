@@ -20,6 +20,9 @@ class MealTableViewCell: UITableViewCell {
     @IBOutlet weak var dinnerMeal: UIImageView!
     @IBOutlet weak var mealtwo: UIImageView!
     @IBOutlet weak var mealTwoLabel: UILabel!
+    @IBOutlet weak var dinner: UIView!
+    @IBOutlet weak var lunch: UIView!
+    @IBOutlet weak var breakfast: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

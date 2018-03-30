@@ -11,7 +11,7 @@ import UIKit
 class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let list = [["2", "Feb", UIImage(named: "bagel"), "Bagel",
                  UIImage(named: "cereal"), "Cereal", UIImage(named: "sandwich"), "Sandwich", UIImage(named: "tacos"), "Tacos"], ["3", "Feb", UIImage(named: "bagel"), "Bagel",
-                                                                                                                                 UIImage(named: "cereal"), "Cereal", UIImage(named: "sandwich"), "Sandwich", UIImage(named: "tacos"), "Tacos"], ["4", "Feb"], ["5", "Feb"]]
+                                                                                                                                 UIImage(named: "cereal"), "Cereal", UIImage(named: "sandwich"), "Sandwich", UIImage(named: "tacos"), "Tacos"], ["26", "Mar", UIImage(named: "bagel"), "Bagel",]]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return(list.count)
@@ -39,6 +39,17 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         } else {
             cell.month?.text = list[indexPath.row][0] as? String
             cell.date?.text = list[indexPath.row][1] as? String
+            cell.mealone.image = list[indexPath.row][2] as? UIImage
+            cell.mealOneLabel?.text = list[indexPath.row][3] as? String
+            
+            cell.mealtwo.isHidden = true
+            cell.mealTwoLabel.isHidden = true
+            cell.lunchMeal.isHidden = true
+            cell.lunchLabel.isHidden = true
+            cell.dinnerMeal.isHidden = true
+            cell.dinnerLabel.isHidden = true
+            cell.dinner.isHidden = true
+            cell.lunch.isHidden = true
         }
         return(cell)
     }
