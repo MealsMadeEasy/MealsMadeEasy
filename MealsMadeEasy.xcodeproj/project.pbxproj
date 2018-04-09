@@ -112,7 +112,7 @@
 		E883FF0A203495B600523A01 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E8881649202DF00E008E5681 /* UseronboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseronboardingController.swift; sourceTree = "<group>"; };
 		E88EBF20201B70D90058459E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		E8A169C920101450005E997C /* MealsMadeEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MealsMadeEasy.app; path = "Meals Made Easy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A169C920101450005E997C /* Meals Made Easy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meals Made Easy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A169CC20101450005E997C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A169CE20101450005E997C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8A169D120101450005E997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -281,7 +281,7 @@
 		E8A169CA20101450005E997C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8A169C920101450005E997C /* MealsMadeEasy.app */,
+				E8A169C920101450005E997C /* Meals Made Easy.app */,
 				E8A169DD20101450005E997C /* MealsMadeEasyTests.xctest */,
 				E8A169E820101450005E997C /* MealsMadeEasyUITests.xctest */,
 			);
@@ -369,7 +369,7 @@
 			);
 			name = MealsMadeEasy;
 			productName = MealsMadeEasy;
-			productReference = E8A169C920101450005E997C /* MealsMadeEasy.app */;
+			productReference = E8A169C920101450005E997C /* Meals Made Easy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E8A169DC20101450005E997C /* MealsMadeEasyTests */ = {
@@ -871,7 +871,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MealsMadeEasy/MealsMadeEasy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FT22888S27;
+				DEVELOPMENT_TEAM = GK8SK829EV;
 				INFOPLIST_FILE = MealsMadeEasy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Team-Null.MealsMadeEasy";
@@ -888,7 +888,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MealsMadeEasy/MealsMadeEasy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FT22888S27;
+				DEVELOPMENT_TEAM = GK8SK829EV;
 				INFOPLIST_FILE = MealsMadeEasy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Team-Null.MealsMadeEasy";
