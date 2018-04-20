@@ -30,7 +30,6 @@
 
 ## Documentation
 
-- The **Backend APIs** section covers other libraries like [Animated](https://facebook.github.io/react-native/docs/animated.html) and [StyleSheet](https://facebook.github.io/react-native/docs/stylesheet.html) that aren’t React components themselves.
 
 ---
 
