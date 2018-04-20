@@ -5,7 +5,7 @@
 ---
 ## Prerequisites
 - Mac Os Sierra or higher
-- Iphone 8.0 or higher
+- iOS 8.0 or higher
 - [Install ***Xcode 9.0*** or greater](https://developer.apple.com/xcode/)
 - Install ***Podfile***
     ```
