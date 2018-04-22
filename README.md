@@ -1,7 +1,8 @@
 # [Meals Made Easy](https://github.com/MealsMadeEasy/iOS) &middot;  
 
 ## Introduction
-- Meal Made Easy
+Meals Made Easy is a mobile app that assists the user in planning and maintaining a diet. The app would provide sustainable and flexible meal plans that meets users’ nutritional needs for a week at a time as well as a detailed grocery list for these meal plans
+
 ---
 ## Prerequisites
 - Mac Os Sierra or higher
