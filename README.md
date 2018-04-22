@@ -36,4 +36,4 @@ Backend documentation can be found here https://github.com/MealsMadeEasy/Backend
 ## Latest Release Note
 
 You can check the latest release note for the iOS app here: 
-https://github.com/MealsMadeEasy/iOS/CHANGELOG.md
+https://github.com/MealsMadeEasy/iOS/blob/master/CHANGELOG.md
