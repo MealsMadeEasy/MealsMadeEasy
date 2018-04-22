@@ -6,8 +6,8 @@
 ## Prerequisites
 - Mac Os Sierra or higher
 - iOS 8.0 or higher
-- [Install ***Xcode 9.0*** or greater](https://developer.apple.com/xcode/)
-- Install ***Podfile***
+- [Install ***Xcode 9.0*** or higher](https://developer.apple.com/xcode/)
+- Install ***cocoapods***
     ```
         sudo gem install cocoapods
     ```
@@ -24,16 +24,16 @@
 ---
 
 ## Build
-- Once you have installed the dependencies and prerequisites component, you can open Xcode and press the `build` button.
+Once you have installed the dependencies and prerequisite components, you can open Xcode and press the `build` button.
 
 ---
 
 ## Documentation
-
+Backend documentation can be found here https://github.com/MealsMadeEasy/Backend
 
 ---
 
 ## Latest Release Note
 
 You can check the latest release note for the iOS app here: 
-https://github.com/MealsMadeEasy/iOS/CHANGELOG.MD
+https://github.com/MealsMadeEasy/iOS/CHANGELOG.md
