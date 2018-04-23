@@ -1,8 +1,8 @@
 # Changelog
 
-## [1.0.5]
+## [1.0.4]
 
-Welcome to the April 2018 release of Meals Made Easy iOS app
+Release note of Meals Made Easy iOS app for April 2018
 
 Here are improvements and new features for this release:
 
