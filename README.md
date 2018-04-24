@@ -16,8 +16,8 @@
     ```
     sudo gem install cocoapods
     ```
-- Set up signature key for Firebase
-
+- For authentication to work, you will need to set up Firebase. A detail instruction on how to set it up can be found here 
+https://firebase.google.com/docs/auth/ios/phone-auth
 ---
 
 ## Dependencies
