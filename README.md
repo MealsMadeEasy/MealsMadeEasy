@@ -1,39 +1,44 @@
 # [Meals Made Easy](https://github.com/MealsMadeEasy/iOS) &middot;  
 
-## Introduction
-Meals Made Easy is a mobile app that assists the user in planning and maintaining a diet. The app would provide sustainable and flexible meal plans that meets users’ nutritional needs for a week at a time as well as a detailed grocery list for these meal plans.
-
----
 ## Prerequisites
-- Mac Os Sierra or higher
-- iOS 8.0 or higher
-- [Install ***Xcode 9.0*** or higher](https://developer.apple.com/xcode/)
-- Install ***cocoapods***
+- A Mac running macOS Sierra or higher
+- An Iphone running iOS 8.0 or higher
+- [***Xcode 9.0*** or higher](https://developer.apple.com/xcode/)
+- ***Homebrew***
     ```
-        sudo gem install cocoapods
+    /usr/bin/ruby -e "$(curl -fsSL     https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    ```
+- ***Ruby Gem***
+    ```
+    brew install ruby
+    ```
+- ***Cocoapods***
+    ```
+    sudo gem install cocoapods
     ```
 - Set up signature key for Firebase
 
 ---
 
 ## Dependencies
-- All dependencies are managed by CocoaPods. You need to navigate to the project folder and run the following command to install the dependencies.
-
-    ```
-        pod install && pod update
-    ```
+- The project uses Cocoapods to manage its dependencies.
+- To install the dependecies, run `pod install && pod update` in a terminal from the project's root directory
+    -   Press `⌘-Shift-A` to open the Application window, type `terminal` into the search box, and hit return.
+    -   Open the folder where you have cloned this repository on your Mac, and type `pod install && pod update`.
+    -   The Cocoapods will install and link the dependencies to the project.
 ---
 
 ## Build
-Once you have installed the dependencies and prerequisite components, you can open Xcode and press the `build` button.
+- To build the application, in the project folder, click on the file `MealsMadeEasy.xcworkspace`. This will start and add the project to Xcode
+- Select your desired emulator/iPhone device from the drop down list on the top left in Xcode.
+- To the left of the drop down, you will see the `build` button with a play icon, press on it and the build process will begin. The app will be installed on your emulator/iPhone device after the build is completed.
 
 ---
-
-## Documentation
-Backend documentation can be found here https://github.com/MealsMadeEasy/Backend
-
+## Known Issues
+Here is a list of UI issues that were left unresolved in the final release of the iOS app.
+- Due to an unknown caching issue, some food images are not loading correctly. A temporary fix when this issue happens is to close and re-open the app.
+- You can find more issues related to the backend here https://github.com/MealsMadeEasy/Backend/blob/master/README.md
 ---
-
 ## Latest Release Note
 
 You can check the latest release note for the iOS app here: 
